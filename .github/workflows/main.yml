@@ -25,7 +25,7 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          pip install pandas numpy plotly nltk
+          pip install pandas numpy plotly nltk pytz
           python -m nltk.downloader vader_lexicon
 
       - name: Configure Git
