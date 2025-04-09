@@ -2,7 +2,7 @@ name: Update Dashboard Hourly
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Runs at the start of every hour
+    - cron: '*/10 * * * *'  # Runs at the start of every hour
   workflow_dispatch:     # Allows manual triggering of the workflow
 
 permissions:
